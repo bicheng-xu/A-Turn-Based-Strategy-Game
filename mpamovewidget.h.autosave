@@ -1,0 +1,26 @@
+#ifndef MPAMOVEWIDGET_H
+#define MPAMOVEWIDGET_H
+
+#define TOP 1
+#define BOTTOM 2
+#define LEFT 3
+#define RIGHT 4
+
+
+#include <QWidget>
+
+class MpaMoveWidget : public QWidget
+{
+    Q_OBJECT
+private:
+    int direction;
+public:
+    explicit MpaMoveWidget(QWidget *parent = 0, int dir);
+
+signals:
+
+public slots:
+
+};
+
+#endif // MPAMOVEWIDGET_H

@@ -1,0 +1,7 @@
+#include "mpamovewidget.h"
+
+MpaMoveWidget::MpaMoveWidget(QWidget *parent,int dir) :
+    QWidget(parent)
+{
+    direction=dir;
+}
